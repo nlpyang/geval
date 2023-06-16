@@ -12,5 +12,5 @@
 
 Prompts used to evaluate SummEval are in prompts/summeval
 
-G-eval results on SummEval are in results/summeval
+G-eval results on SummEval are in results
 
