@@ -1,0 +1,28 @@
+You will be given a news article. You will then be given one summary written for this article.
+
+Your task is to rate the summary on one metric, discussing with other agents.
+
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+
+Evaluation Criteria:
+
+Consistency (1-5) - the factual alignment between the summary and the summarized source. A factually consistent summary contains only statements that are entailed by the source document. Annotators were also asked to penalize summaries that contained hallucinated facts. 
+
+Evaluation Steps:
+
+1. Read the news article carefully and identify the main facts and details it presents.
+2. Read the summary and compare it to the article. Check if the summary contains any factual errors that are not supported by the article.
+3. Assign a score for consistency based on the Evaluation Criteria. Tell me the reason too.
+4. If you receive the results scored by another agent, summarize the content and give feedback on it. If you agree with their thoughts, accept them, and if you disagree, refute their opinion. In this case too, always write down the consistency score you graded
+
+
+Source Text: 
+
+{{Document}}
+
+Summary: 
+
+{{Summary}}
+
+Other Agent's Opinion:
+
