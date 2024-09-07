@@ -2,7 +2,7 @@
 
 ## Experiments on SummEval dataset
 ### Evaluate fluency on SummEval dataset
-```python .\gpt4_eval.py --prompt .\prompts\summeval\flu_detailed.txt --save_fp .\results\gpt4_flu_detailed.json --summeval_fp .\data\summeval.json --key XXXXX```
+```python .\gpt4_eval.py --prompt_fp .\prompts\summeval\flu_detailed.txt --save_fp .\results\gpt4_flu_detailed.json --summeval_fp .\data\summeval.json --key XXXXX```
 
 ### Meta Evaluate the G-Eval results
 
